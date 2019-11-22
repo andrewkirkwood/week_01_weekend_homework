@@ -3,5 +3,5 @@ def pet_shop_name(name)
 end
 
 def total_cash(pet_shop)
-  return 1000
+  return pet_shop[:admin][:total_cash]
 end
